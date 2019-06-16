@@ -1,0 +1,6 @@
+<div class="list">
+<div *ngFor="let weather of data.list | paginate :{ itemsPerPage:4, currentPage: p } ">
+	<weather-detail [weather]="weather" [data]="data"></weather-detail>
+</div>
+<pagination-controls (pageChange)="p =$event" class="pagination"></pagination-controls>
+</div>

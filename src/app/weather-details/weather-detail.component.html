@@ -1,0 +1,19 @@
+<div class="templete">
+	<div class="col-lg-3 col-sm-3 col-md-3">
+		<div class="weather-card one">
+			<div class="top">
+				<div class="wrapper">
+					<div class="mynav">
+					</div>
+					<h1 class="heading">{{weather.weather[0].description}}</h1>
+					<h3 class="location">{{weather.dt_txt}}</h3>
+					<h2 class="location">{{data.city.name}}</h2>
+					<p class="temp">
+						<span class="temp-value">{{(weather.main.temp)}}K</span>
+						<img alt="cloud" src="http://openweathermap.org/img/w/{{weather.weather[0].icon}}.png"> <br>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

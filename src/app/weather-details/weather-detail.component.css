@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900");
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
+
+.container-fluid{
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/sparkly-light-particles-falling-down-a-silver-white-gradient-background_rpmc6ykv__F0000.png");
+}
+.weather-card {
+  margin: 60px auto;
+  height: 450px;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.weather-card .top {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/cf/1e/c4/cf1ec4b0c96e59657a46867a91bb0d1e.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+}
+.weather-card .top .wrapper {
+  padding: 15%;
+  position: relative;
+  z-index: 1;
+}
+.weather-card .top .wrapper .heading {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: 400;
+  color: #0A0909;
+}
+.weather-card .top .wrapper .location {
+  margin-top: 20px;
+  font-size: 21px;
+  font-weight: 400;
+  color: #191818;
+}
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+.weather-card .top .wrapper .temp .temp-value {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: 600;
+  color: #080707;
+}
+.weather-card .top .wrapper .temp .deg {
+  display: inline-block;
+  font-size: 35px;
+  font-weight: 600;
+  color: #100F0F;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.weather-card .top:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(212, 215, 219, 0.88);
+}
+.link{
+  color: black;
+  font-size: 18px;
+}
+.pagination{
+    margin-left: 25%;
+   
+    font-size: 25px;
+}
+.templete{
+  float: left;
+}
